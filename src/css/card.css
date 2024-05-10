@@ -1,0 +1,112 @@
+.card
+{
+    height: 18%;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.132);
+    border-radius: 15px;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    justify-content: start;
+
+}
+
+.card-selected{
+    background-color: rgb(221, 221, 255);
+}
+
+.card-not-selected{
+    background-color: white;
+}
+
+.card-content{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap:20px;
+    /* background-color: yellow; */
+}
+
+.card-content h2, .card-content p {
+    margin-left: 5%;
+}
+
+.card-counter{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: orange; */
+
+}
+
+.card-counter-disable{
+    display: none;
+}
+
+.card-counter h4{
+    display: inline;
+    font-weight: 500;
+    width: 20%;
+    /* background-color: red; */
+}
+
+
+.card-counter .btn{
+    padding: 2px 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:8px;
+    border-radius: 3px;
+    border:transparent;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.counter-container{
+    width: 20%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container
+{
+    width: 20%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zero-btn
+{
+    background-color: rgb(221,187,0);
+}
+
+.unzero-btn
+{
+    background-color: rgb(16, 0, 107);
+    color: white;
+}
+
+.btn-plus, .btn-minus
+{
+    background-color: #666666;
+    color: white;
+}
+
+
+.card:nth-child(1)
+{
+    margin-top: 5%;
+}
+
+

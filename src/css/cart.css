@@ -1,0 +1,44 @@
+header .positioning-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* flex-direction: column; */
+    position: relative;
+}
+
+header .positioning-container button {
+    height: 100%;
+    width: 10%;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(221, 221, 255);
+}
+
+.positioning-container .cart-item-container-show{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    background-color:rgb(192, 192, 252) ;
+    top:100%;
+}
+
+.cart-item-container-hide{
+    display: none;
+}
+
+
+.cart-item-container-show ul {
+    height: 100%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    gap:25px;
+}
+
+.cart-item-container-show ul li{
+    margin-left: 15px;
+}
